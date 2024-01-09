@@ -1,0 +1,421 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    font-family: 'Merriweather', serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Merriweather', serif;
+}
+
+.continer {
+    width: 1280px;
+    height: auto;
+    margin: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.imag-cover {
+    margin: 60px 0;
+    background-image: url("./images/happayEvent-img/BannerImage.png");
+    height: 600px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    position: relative;
+}
+
+.my-grideant {
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    position: absolute;
+    opacity: 0.6;
+}
+
+.happy-ny p {
+    text-align: center;
+    line-height: normal;
+    font-size: 32px;
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #fff;
+    padding-bottom: 10px;
+}
+
+.happy-ny h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 90px;
+}
+
+.nuber {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+section.sec-five {
+    background: #d4d2d3;
+}
+.some-paga p {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2.2;
+}
+
+.some-paga h1 {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.hny-logo img {
+    width: 802.9px;
+    height: 500px;
+    flex-shrink: 0;
+    /* text-align: center; */
+}
+
+.hny-logo {
+    text-align: center;
+    padding-top: 45px;
+}
+
+.sec-section {
+    background-image: url(./images/happayEvent-img/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* background-size: cover; */
+    width: 1220px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.party-cover {
+    display: flex;
+    justify-content: space-around;
+    padding: 180px 0;
+}
+
+.wel-party {
+    width: 760px;
+    padding: 62px 55px;
+}
+
+.big-wel h1 {
+    color: #f4f4f4;
+    line-height: 88px;
+    /* 137.5% */
+    font-family: 'Merriweather', serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    letter-spacing: 7px;
+}
+
+.dolor-sit p {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+}
+
+.twinty-four {
+    width: 413px;
+    padding-left: 0px;
+    padding-right: 162px;
+}
+
+.btn a {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.btn {
+    /* padding: 67px 0px; */
+    padding-top: 50px;
+    font-family: 'Merriweather';
+    padding-left: 17px;
+}
+.dolor-sit {
+    padding: 13px 0px;
+}
+.row{
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);;
+    text-align: center;
+}
+.col-brown{
+    color: #ff0000;
+    font-weight: bold;
+}
+.place-cover p{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 2.3;
+}
+.place-cover {
+    padding: 50px 0;
+}
+.join-btn a {
+    background: red;
+    padding: 10px 22px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+}
+.offer-cover {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.best-com {
+    width: 351px;
+    padding-right: 21px;
+}
+
+section.four-section {
+    padding: 108px 0;
+    margin: 91px 0;
+}
+.best-com p:first-child {
+    color: #ff0000;
+    font-weight: 400;
+    /* padding: 75px 0px; */
+    /* padding-bottom: 9px; */
+}
+
+.best-com h1 {
+    padding: 9px 0;
+    font-size: 48px;
+    color: #070211;
+}
+
+p.best-paga {
+    color: #07021199;
+    line-height: 1.7;
+    font-size: 15px;
+    font-weight: 100;
+}
+.celebert-pe {border: 15px solid #F00;border-radius: 50%;padding: 22px;}
+
+p.best-paga {
+    color: #07021199;
+    line-height: 1.7;
+    font-size: 17px;
+    font-weight: 100;
+}
+.celebert-pe img {
+    width: 350px;
+}
+.new-yr {
+    text-align: center;
+}
+
+.new-yr h1 {
+    color: #ff0000;
+    font-weight: bold;
+}
+
+.new-yr p {width: 255px;font-weight: 100;color: #07021199;line-height: 1.7;padding-top: 18px;
+        text-align: left;
+    }
+.new-yr img {
+    padding-top: 35px;
+}
+.fun-dite {
+    text-align: center;
+    font-weight: bold;
+    line-height: 1.8;
+}
+.fun-dite h1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    padding: 30px 0;
+}
+.fun-dite p:first-child {
+    font-weight: 600;
+    color: #070211;
+}
+.fun-dite p {
+    color: #07021199;
+    font-weight: 200;
+}
+.gif-rec {
+    display: flex;
+    position: relative;
+    top: 315px;
+    justify-content: space-around;
+    /* bottom: 161px; */
+    z-index: 1200;
+}
+.red {
+    position: relative;
+}
+
+img {
+    width: 100%;
+}
+section.sec-six {
+    padding-top: 50px;
+    margin-top: 110px;
+}
+.six-paga p:first-child {
+    /* padding: 4px 0px; */
+    font-weight: bold;
+}
+.six-paga h3{
+    font-weight: bold;
+    font-family: 'Merriweather', serif;
+    font-size: 43px;
+    padding: 10px 0;
+}
+.six-paga {
+    width: 649px;
+    /* padding-top: 10px; */
+}
+.pt-one img {
+    width: 402px;
+    padding: 16px 14px;
+    box-shadow: 0px 0px 3px 1px;
+    border-radius: 26px;
+}
+.flex-box-img {
+    padding-top: 20px;
+    margin-top: 20px;
+}
+section.sec-seven {
+    text-align: center;
+    padding: 115px 0;
+}
+
+.icon img {
+    width: 120px;
+}
+.icon h1 {
+    font-size: 36px;
+    padding: 22px 0;
+}
+.input{
+    /* padding: 10px; */
+    margin: 33px 0;
+}
+.input input{
+    width: 500px;
+    border: none;
+    padding: 12px;
+}
+.btn-two{
+    padding: 9px;
+    border-radius: 0px 20px 20px 0px;
+    position: absolute;
+    border: none;
+    background: #ff0000;
+    color: #ffff;
+    /* padding-left: 37px; */
+    width: 140px;
+    cursor: pointer;
+    font-size: 18px;
+}
+.icon p {color: #6a626b;line-height: 1.6666;};
+
+footer
+{
+    background-color: red;
+}
+.phone-num img{
+    width: 40px;
+}
+.blue-cover{
+    display: flex;
+}
+.sec-eight{
+    background-color: #070211;
+    color: #fff;
+}
+.number img{
+    width: 18px;
+    padding-right: 3px;
+}
+.cover-full {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 2px solid #10022c;
+    margin: 25px 0;
+    padding: 40px 0;
+}
+.now-icon{
+    text-align: center;
+    padding: 30px 0;
+    border-bottom: 2px solid #10022c;
+
+}
+.now-icon img{
+    width: 40px;
+}
+.now-icon img {
+    margin-right: 20px;
+    cursor: pointer;
+}
+.paga-raph p{
+    padding-top:20px;
+    padding-bottom: 60px;
+    font-weight: 700;
+}
+.six-paga p {
+    line-height: 1.88;
+}
